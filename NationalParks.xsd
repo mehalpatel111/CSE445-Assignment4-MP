@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="https://mehalpatel111.github.io/CSE445-Assignment4-MP"
+           targetNamespace="https://mehalpatel111.github.io/CSE445-Assignment4-MP"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
 
 	<!-- This part is for creating the national parks directory structure - MP -->
 	<xs:element name="NationalParks">
