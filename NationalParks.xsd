@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<!-- This part is for creating the national parks directory structure - MP -->
+	<xs:element name="NationalParks">
+		<xs:complexType>
+			<xs:sequence>
+
+				<!-- This part is for allowing multiple national parks - MP -->
+				<xs:element name="NationalPark" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+
+							<!-- This part is for storing each park name - MP -->
+							<xs:element name="Name" type="xs:string" />
+
+							<!-- This part is for allowing one or more phone numbers - MP -->
+							<xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+
+							<!-- This part is for defining the park address - MP -->
+							<xs:element name="Address">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Number" type="xs:int" />
+										<xs:element name="Street" type="xs:string" />
+										<xs:element name="City" type="xs:string" />
+										<xs:element name="State" type="xs:string" />
+										<xs:element name="Zip" type="xs:string" />
+									</xs:sequence>
+
+									<!-- This part is for making the nearest airport required - MP -->
+									<xs:attribute name="NearestAirport" type="xs:string" use="required" />
+
+								</xs:complexType>
+							</xs:element>
+
+						</xs:sequence>
+
+						<!-- This part is for allowing an optional park rating - MP -->
+						<xs:attribute name="Rating" type="xs:string" use="optional" />
+
+					</xs:complexType>
+				</xs:element>
+
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>
