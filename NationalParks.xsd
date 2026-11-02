@@ -38,7 +38,7 @@
 						</xs:sequence>
 
 						<!-- This part is for allowing an optional park rating - MP -->
-						<xs:attribute name="Rating" type="xs:string" use="optional" />
+						<xs:attribute name="Rating" type="xs:decimal" use="optional" />
 
 					</xs:complexType>
 				</xs:element>
