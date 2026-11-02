@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <!-- This part is for testing the incorrect root element - MP -->
-<NationalPark>
+<NationalPark
+    xmlns="https://mehalpatel111.github.io/CSE445-Assignment4-MP"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://mehalpatel111.github.io/CSE445-Assignment4-MP https://mehalpatel111.github.io/CSE445-Assignment4-MP/NationalParks.xsd">
 
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
