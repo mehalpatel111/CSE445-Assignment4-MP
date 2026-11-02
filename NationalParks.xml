@@ -18,8 +18,8 @@
   </NationalPark>
 
   <!-- This part is for adding Saguaro National Park - MP -->
-  <NationalPark>
-    <Name>Saguaro</Name>
+  <NationalPark Rating="4.7">
+  <Name>Saguaro</Name>
     <Phone>520-733-5153</Phone>
     <Address NearestAirport="Tucson International">
       <Number>3693</Number>
@@ -31,8 +31,8 @@
   </NationalPark>
 
   <!-- This part is for adding Gateway Arch National Park - MP -->
-  <NationalPark>
-    <Name>Gateway Arch</Name>
+  <NationalPark Rating="4.8">
+  <Name>Gateway Arch</Name>
     <Phone>314-655-1600</Phone>
     <Phone>877-982-1410</Phone>
     <Address NearestAirport="St Louis Lambert International">
@@ -136,8 +136,8 @@
   </NationalPark>
 
   <!-- This part is for adding Haleakala National Park (my favorite place) - MP -->
-  <NationalPark>
-    <Name>Haleakala</Name>
+  <NationalPark Rating="4.9">
+  <Name>Haleakala</Name>
     <Phone>808-572-4400</Phone>
     <Address NearestAirport="Kahului">
       <Number>30000</Number>
